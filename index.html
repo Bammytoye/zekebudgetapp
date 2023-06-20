@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+
+    <div class="zekeBudget">
+        <h1>Zeke Budget Application</h1>
+  
+
+    <div class="budgetOne">
+        <label for="items">Budget Items:</label> <br>
+        <input id="items" type="text" placeholder="Enter your Budget Item">
+    </div>
+
+    <div class="budgetOne">
+        <label for="priceOne">Price (₦):</label> <br>
+        <input id="priceOne" type="number" placeholder="Enter your Item Price">
+    </div>
+
+    <div class="budgetOne">
+        <button class="sub" onclick= "submit()">Submit </button>
+    </div>
+
+    </div>
+    
+    <div>
+        <div class="budgetItems1" style="display: none;" id="budegtTwo">Please enter budget items</div>
+    </div>
+</div>
+
+<div class="budgetList1">
+    <h2 id="budgetList1" class="budgetList2"></h2>
+    <table id="myTable"></table>
+</div>
+
+<div class="showListName">
+    <h2 id="showList" class="showList"></h2>
+    <table id="myTable"></table>
+</div>
+
+<div id="allButtons">
+    <div class="row">
+        <button onclick="deleteFirst()">Delete First Name</button>
+        <button onclick="deleteLast()">Delete Last Name</button>
+        <button onclick="deleteAny()">Delete any Name(s)</button>
+        <button onclick="editItem()">Edit their Name</button>
+        <button onclick="addStart()">Add Name to the Start</button>
+        <button onclick="deleteAll()">Delete all Name</button>
+    </div>
+</div>
+
+    <script src=""></script>
+</body>
+</html>

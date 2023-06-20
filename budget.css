@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zekeBudget {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #fa9393;
+    border-radius: 1rem;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 23px 3px 0 32px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.budgetOne{
+    margin: 13px 15px;
+    width: 100%;
+}
+
+label{
+    font-size: larger;
+}
+
+#priceOne, #items {
+    padding: 9px 10px;
+    width: 90%;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 0.5rem;
+    border: 0.5px solid #000000;
+}
+
+.sub{
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    padding: 12px 23px;
+    border-radius: 0.5rem;
+    width: 90%;
+    color: aliceblue;
+    background-color: rgb(190, 58, 58);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sub:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(190, 58, 58);
+    font-weight: 900;
+    border: 1px solid #000;
+}
+
+#allButtons{
+    padding: 12px 14px;
+    margin: auto;
+    margin-left: 40px;
+}
+
+button{
+    border: 1px solid #000;
+    padding: 12px 20px;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: #fff;
+    font-size: larger;
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+    border-radius: 1rem;
+    border: 0.5px solid #a09494;
+}
